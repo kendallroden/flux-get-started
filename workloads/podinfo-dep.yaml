@@ -55,10 +55,10 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Welcome to FLUX!'
+          - --ui-message='This demo is sweet!!!'
         env:
           - name: PODINFO_UI_COLOR
-            value: "#D3FC2E"
+            value: "#34577c"
         livenessProbe:
           httpGet:
             path: /healthz
