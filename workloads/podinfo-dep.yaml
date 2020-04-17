@@ -58,7 +58,7 @@ spec:
           - --ui-message='Welcome to FLUX!'
         env:
           - name: PODINFO_UI_COLOR
-            value: "#34577c"
+            value: "#D3FC2E"
         livenessProbe:
           httpGet:
             path: /healthz
