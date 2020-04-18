@@ -25,15 +25,23 @@ spec:
         prometheus.io/port: "9797"
       labels:
         app: podinfo
-    spec:   
+    spec:
+      affinity:
+      nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key: cpuArchitecture
+                operator: In
+                values:
+                - x86      
       initContainers:
       - name: init
         image: alpine:3.10.1
         command:
         - sleep
-        - "1"
-      nodeSelector:
-        cpuArchitecture: x86         
+        - "1"       
       containers:
       - name: podinfod
         image: stefanprodan/podinfo:3.1.0
