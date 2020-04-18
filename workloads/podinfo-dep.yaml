@@ -27,7 +27,7 @@ spec:
         app: podinfo
     spec:
       affinity:
-      nodeAffinity:
+       nodeAffinity:
           preferredDuringSchedulingIgnoredDuringExecution:
           - weight: 1
             preference:
