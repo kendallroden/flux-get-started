@@ -65,7 +65,7 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='OMG THIS IS AWESOME'
+          - --ui-message='Welcome to OSS Day!'
         env:
           - name: PODINFO_UI_COLOR
             value: "#34577c"
