@@ -65,7 +65,7 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Welcome to OSS Day!'
+          - --ui-message='Welcome to Demo on VMware!'
         env:
           - name: PODINFO_UI_COLOR
             value: "#34577c"
