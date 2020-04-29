@@ -65,7 +65,7 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Welcome to OSS Community Day! I'm running on Pi + k8s'
+          - --ui-message='Welcome to OSS Community Day!'
         env:
           - name: PODINFO_UI_COLOR
             value: "#34577c"
