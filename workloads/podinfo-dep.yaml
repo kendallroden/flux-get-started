@@ -65,7 +65,7 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Hello to my demo friends! How are you?'
+          - --ui-message='Hello to my demo friends! How are you? I know, this virus sucks!!!'
         env:
           - name: PODINFO_UI_COLOR
             value: "#34577c"
