@@ -65,7 +65,7 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Hello to my demo friends! I think this is kinda cool!'
+          - --ui-message='Hello to my demo friends! I'm running on AKS!'
         env:
           - name: PODINFO_UI_COLOR
             value: "#34577c"
