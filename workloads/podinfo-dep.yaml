@@ -68,7 +68,8 @@ spec:
           - --ui-message='Is this working?'
         env:
           - name: PODINFO_UI_COLOR
-            value: "#34577c"
+            #value: "#34577c"
+            value: "#FDFF33"
         livenessProbe:
           httpGet:
             path: /healthz
