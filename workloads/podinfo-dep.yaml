@@ -44,7 +44,8 @@ spec:
         - "1"       
       containers:
       - name: podinfod
-        image: stefanprodan/podinfo:3.1.0
+        #image: stefanprodan/podinfo:3.1.0
+        image: stefanprodan/podinfo:latest
         imagePullPolicy: IfNotPresent
         ports:
           - name: http
@@ -65,7 +66,7 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Very cool demo!'
+          - --ui-message='WOW'
         env:
           - name: PODINFO_UI_COLOR
             value: "#34577c"
