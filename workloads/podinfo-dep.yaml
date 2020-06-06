@@ -65,11 +65,10 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Is this working?'
+          - --ui-message='Very cool demo!'
         env:
           - name: PODINFO_UI_COLOR
-            #value: "#34577c"
-            value: "#FDFF33"
+            value: "#34577c"
         livenessProbe:
           httpGet:
             path: /healthz
